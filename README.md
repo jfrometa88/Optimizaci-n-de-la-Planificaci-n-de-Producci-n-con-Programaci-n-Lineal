@@ -33,6 +33,7 @@ En la industria de procesamiento pesquero de Santiago de Cuba, la planificación
 │   └── articulo.pdf # Artículo original
 ├── LICENSE
 └── README.md
+└── requirements.txt
 ```
 
 ---
