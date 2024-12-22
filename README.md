@@ -105,7 +105,7 @@ $\text{Producción}_{i} \in \mathbb{R}^+$: Cantidad de toneladas a producir en e
 
 Maximizar la utilidad operativa:
 
-$ Z = sum_{i} (Utilidad_{i} \cdot Producción_{i}) $
+$Z = sum_{i} (Utilidad_{i} \cdot Producción_{i})$
 
 ### Restricciones
 
@@ -119,7 +119,7 @@ $ Z = sum_{i} (Utilidad_{i} \cdot Producción_{i}) $
    $Producción_{s} \geq Minimo_{s} $
 
 4. **No negatividad:**
-   $ Producción_{i} \geq 0 $
+   $Producción_{i} \geq 0$
 
 ---
 
