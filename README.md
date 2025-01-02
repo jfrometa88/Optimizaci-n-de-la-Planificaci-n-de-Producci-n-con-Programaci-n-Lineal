@@ -110,16 +110,16 @@ $MaxZ = sum_{i} (Utilidad_{i} \cdot Producción_{i})$
 ### Restricciones
 
 1. **Disponibilidad de materias primas:**
-   $\sum_{i} (Consumo_{i,j} \cdot Producción_{i}) \leq Disponibilidad_{j}$
+   $\sum_{i} (Consumo_{i,j} \cdot Producción_{i}) \leq Disponibilidad_{j}, \forall {j}$
 
 2. **Capacidades productivas:**
-   $Producción_{i} \leq Capacidad_{i,k} \cdot Uso_{k}$
+   $Producción_{i} \leq Capacidad_{i,k} \cdot Uso_{k}, \forall {k}$
 
 3. **Producción mínima para fines sociales:**
-   $Producción_{s} \geq Minimo_{s} $
+   $Producción_{s} \geq Minimo_{s},  \forall {s}$
 
 4. **No negatividad:**
-   $Producción_{i} \geq 0$
+   $Producción_{i} \geq 0,  \forall {i}$
 
 ---
 
